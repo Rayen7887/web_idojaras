@@ -1,11 +1,14 @@
 //47.53333 21.63333
 //47.53333 21.644821
 //47.600834, 21.759054
+document.getElementById("koordinatak").innerHTML=`<img src="toltes.gif">` 
 
 let latitude = 47.53333
 let longitude = 21.63333
 
+
 function Keres(){
+    document.getElementById("koordinatak").innerHTML=`<img src="toltes.gif">`
     let ujlat = document.getElementById("lat").value
     let ujlong = document.getElementById("long").value
     latitude = ujlat
